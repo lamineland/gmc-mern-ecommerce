@@ -1,0 +1,6 @@
+body { background: #f8f9fa; }
+.product-img { aspect-ratio: 1 / 1; object-fit: cover; }
+.product-card { transition: transform .15s, box-shadow .15s; }
+.product-card:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.12); }
+.cart-thumb { width: 64px; height: 64px; object-fit: cover; border-radius: .375rem; }
+main { min-height: 70vh; }
